@@ -37,13 +37,12 @@
 <h2>What the app stores</h2>
 <p>The app stores game state — team names, colors, scores, and an audit log of score changes — locally on your device using Apple's Core Data. This data never leaves your device unless you explicitly enable a sync feature (see below).</p>
 
-<h2>Optional sync features</h2>
-<p>The app offers two optional ways to sync game state across multiple devices:</p>
+<h2>Sync features</h2>
+<p>The app offers two ways to sync game state across multiple devices:</p>
 <ul>
-  <li><strong>Local Network Sync.</strong> Two or more devices on the same Wi-Fi network discover each other using Apple's Bonjour service and exchange score updates directly. The data never leaves your local network. We do not see, receive, or store any of it.</li>
-  <li><strong>iCloud Sync.</strong> Game state is stored in your private Apple iCloud database using CloudKit. Only you (and people you explicitly share with) can access it. Apple's CloudKit terms apply. We do not see, receive, or store any of it.</li>
+  <li><strong>Local Network Sync (Nearby).</strong> Opt-in. Two or more devices on the same Wi-Fi network discover each other using Apple's Bonjour service and exchange score updates directly. The data never leaves your local network. We do not see, receive, or store any of it.</li>
+  <li><strong>iCloud Sync.</strong> Premium-only. Your scoreboards are stored in your private Apple iCloud database using CloudKit and mirrored across your own devices automatically. Only you can access this data. Apple's CloudKit terms apply. We do not see, receive, or store any of it. You can disable iCloud for the app at the OS level via Settings &rarr; [Your Name] &rarr; iCloud.</li>
 </ul>
-<p>Both features are off by default and can be turned off at any time in the app's Sync Settings.</p>
 
 <h2>In-app purchases</h2>
 <p>The app offers a one-time "Premium Unlock" in-app purchase processed entirely by Apple's StoreKit. We never see your Apple ID, payment method, or transaction details. Apple provides us only an anonymous receipt confirming a valid purchase, which we use to enable premium features on your device.</p>
